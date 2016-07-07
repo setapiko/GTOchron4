@@ -3,9 +3,9 @@ package com.example.set_a_p.gtochron;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.os.Bundle;
 import android.os.SystemClock;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -24,11 +24,9 @@ public class GTOchron extends AppCompatActivity {
     Button btnOk;
     Button btnAdd;
     Chronometer chron;
-
-    private RealmConfiguration realmConfig;
-
     int[] time = new int[3];
     int id = 1;
+    private RealmConfiguration realmConfig;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -79,6 +77,8 @@ public class GTOchron extends AppCompatActivity {
                     assert r2 != null;
                     r2.setEnabled(true);
                     chron.stop();
+
+                    
                 }
 
             }
