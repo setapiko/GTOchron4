@@ -1,3 +1,14 @@
 <resources>
-    <string name="app_name">GTOchron</string>
+    <string name="app_name">ЗабегСтат</string>
+    <string name="b3_name">Сохранить</string>
+    <string name="name">Имя</string>
+    <string name="family">Фамилия</string>
+    <string name="men">Мужчина</string>
+    <string name="women">Женьщина</string>
+    <string name="res">Результат</string>
+    <string name="save">Сохранить</string>
+    <string name="start">СТАРТ</string>
+    <string name="stop">СТОП</string>
+    <string name="sett">Настройки</string>
+    <string name="base">Результаты</string>
 </resources>
